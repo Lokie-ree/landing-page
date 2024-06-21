@@ -4,12 +4,95 @@
   box-sizing: border-box;
 }
 
+ body {
+  width: 100vw;
+  height: 100vh;
+ }
+
+.container1 {
+  border: 3px dashed black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  /* border: 3px dashed blue; */
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.header h5 {
+ width: 25%;
+}
+
+.header .links {
+  /*border: 3px solid purple;*/
+  margin-top: 8px;
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.header li {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.hero {
+
+  padding: 20px;
+  display: flex;
+}
+
+.hero .left {
+  width: 50%;
+  display: flex;
+}
+
+.hero .right {
+  width: 50%;
+}
+
+
+
+
+/*
+
+.header ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+}
+
+*/
+
+ .hero {
+  display: flex;
+ }
+
+
+/*
+
+
+
 body {
   width: 100vw;
   height: auto;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; /* Example font-family */
+  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -24,7 +107,7 @@ body {
 
 .logo {
   font-size: 24px;
-  font-weight: bold; /* Example font-weight */
+  font-weight: bold;
 }
 
 .links ul {
@@ -33,11 +116,11 @@ body {
 }
 
 .links ul li {
-  margin-right: 20px; /* Adjust spacing between links */
+  margin-right: 20px;
 }
 
 .links ul li:last-child {
-  margin-right: 0; /* Remove margin from last link */
+  margin-right: 0;
 }
 
 .links ul li a {
@@ -67,3 +150,5 @@ h1 {
   width: 40%;
   display: flex;
 }
+
+*/
